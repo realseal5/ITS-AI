@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&family=Figtree:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{margin:0;background:#F7F5EF;color:#22302A;font-family:Figtree,'Helvetica Neue',Helvetica,sans-serif;-webkit-font-smoothing:antialiased}
+  a{color:#3C5F4C;text-decoration:none}
+  a:hover{color:#22302A}
+  p{text-wrap:pretty}
+</style>
+</helmet>
+<div style="max-width:1180px;margin:0 auto;padding:0 28px">
+
+  <header style="position:sticky;top:0;z-index:20;display:flex;align-items:center;justify-content:space-between;gap:24px;padding:18px 0;background:rgba(247,245,239,.92);backdrop-filter:blur(8px);border-bottom:1px solid #E7E2D6">
+    <a href="Startseite.dc.html" style="display:flex;align-items:center;gap:10px">
+      <span style="width:26px;height:26px;border-radius:50%;background:#4F7A63;display:block"></span>
+      <span style="font-family:Newsreader,Georgia,serif;font-size:21px;color:#22302A;letter-spacing:-.01em">Praxis Lindwerk</span>
+    </a>
+    <nav style="display:flex;align-items:center;gap:28px">
+      <a href="Leistungen.dc.html" style="font-size:15px;color:#5F6F66">Leistungen</a>
+      <a href="Startseite.dc.html#team" style="font-size:15px;color:#5F6F66">Team</a>
+      <a href="Praxis.dc.html" style="font-size:15px;color:#22302A;font-weight:500">Praxis</a>
+      <a href="Startseite.dc.html#kontakt" style="font-size:15px;color:#5F6F66">Kontakt</a>
+      <a href="tel:+4930123456" style="display:inline-flex;align-items:center;gap:8px;padding:11px 18px;border-radius:999px;background:#4F7A63;color:#FBFAF6;font-size:15px;font-weight:500">030 123 456</a>
+    </nav>
+  </header>
+
+  <section style="padding:72px 0 44px;max-width:62ch">
+    <div style="font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:#8A9690">Praxis</div>
+    <h1 style="font-family:Newsreader,Georgia,serif;font-weight:400;font-size:56px;line-height:1.08;letter-spacing:-.02em;margin:16px 0 0">Ein ruhiger Ort im Altbau, keine Fließbandpraxis</h1>
+    <p style="font-size:19px;line-height:1.64;color:#5F6F66;margin:22px 0 0">Vier Behandlungsräume mit Tageslicht, ein eigener Gerätebereich und ein Wartebereich mit Blick in den Hinterhof. Wir planen so, dass Sie nicht warten müssen und nie mehr als drei Menschen gleichzeitig im Trainingsraum sind.</p>
+  </section>
+
+  <section style="display:grid;grid-template-columns:repeat(4,minmax(0,1fr));grid-auto-rows:200px;gap:14px">
+    <div style="grid-column:span 2;grid-row:span 2;border-radius:18px;background:repeating-linear-gradient(135deg,#E4EDE5 0 8px,#EFF3EB 8px 16px);display:flex;align-items:flex-end;padding:16px">
+      <span style="font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:#5F6F66;background:#F7F5EF;padding:6px 9px;border-radius:5px">Empfang und Eingang</span>
+    </div>
+    <div style="grid-column:span 2;border-radius:18px;background:repeating-linear-gradient(135deg,#E4EDE5 0 8px,#EFF3EB 8px 16px);display:flex;align-items:flex-end;padding:16px">
+      <span style="font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:#5F6F66;background:#F7F5EF;padding:6px 9px;border-radius:5px">Behandlungsraum 1</span>
+    </div>
+    <div style="border-radius:18px;background:repeating-linear-gradient(135deg,#E4EDE5 0 8px,#EFF3EB 8px 16px);display:flex;align-items:flex-end;padding:16px">
+      <span style="font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:#5F6F66;background:#F7F5EF;padding:6px 9px;border-radius:5px">Wartebereich</span>
+    </div>
+    <div style="border-radius:18px;background:repeating-linear-gradient(135deg,#E4EDE5 0 8px,#EFF3EB 8px 16px);display:flex;align-items:flex-end;padding:16px">
+      <span style="font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:#5F6F66;background:#F7F5EF;padding:6px 9px;border-radius:5px">Hinterhof</span>
+    </div>
+    <div style="grid-column:span 2;border-radius:18px;background:repeating-linear-gradient(135deg,#E4EDE5 0 8px,#EFF3EB 8px 16px);display:flex;align-items:flex-end;padding:16px">
+      <span style="font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:#5F6F66;background:#F7F5EF;padding:6px 9px;border-radius:5px">Gerätebereich, Weitwinkel</span>
+    </div>
+    <div style="border-radius:18px;background:repeating-linear-gradient(135deg,#E4EDE5 0 8px,#EFF3EB 8px 16px);display:flex;align-items:flex-end;padding:16px">
+      <span style="font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:#5F6F66;background:#F7F5EF;padding:6px 9px;border-radius:5px">Detail: Behandlungsliege</span>
+    </div>
+  </section>
+
+  <section style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px;padding:80px 0 0">
+    <div style="background:#FBFAF6;border:1px solid #E7E2D6;border-radius:18px;padding:30px">
+      <h2 style="font-family:Newsreader,Georgia,serif;font-weight:500;font-size:24px;margin:0">Ausstattung</h2>
+      <ul style="margin:14px 0 0;padding-left:18px;font-size:16px;line-height:1.75;color:#5F6F66">
+        <li>Vier Behandlungsräume, alle mit Tageslicht</li>
+        <li>Gerätebereich mit Seilzug, Beinpresse und Ergometer</li>
+        <li>Fango- und Wärmekabine</li>
+        <li>Dusche und Umkleide</li>
+      </ul>
+    </div>
+    <div style="background:#FBFAF6;border:1px solid #E7E2D6;border-radius:18px;padding:30px">
+      <h2 style="font-family:Newsreader,Georgia,serif;font-weight:500;font-size:24px;margin:0">Barrierefreiheit</h2>
+      <ul style="margin:14px 0 0;padding-left:18px;font-size:16px;line-height:1.75;color:#5F6F66">
+        <li>Ebenerdiger Zugang von der Hauptstraße</li>
+        <li>Aufzug im Haus, Kabine 110 &times; 140 cm</li>
+        <li>Behandlungsliegen höhenverstellbar</li>
+        <li>Hausbesuche im Umkreis von 3 km möglich</li>
+      </ul>
+    </div>
+    <div style="background:#FBFAF6;border:1px solid #E7E2D6;border-radius:18px;padding:30px">
+      <h2 style="font-family:Newsreader,Georgia,serif;font-weight:500;font-size:24px;margin:0">Anfahrt</h2>
+      <ul style="margin:14px 0 0;padding-left:18px;font-size:16px;line-height:1.75;color:#5F6F66">
+        <li>U9 Friedrich-Wilhelm-Platz, 4 Minuten zu Fuß</li>
+        <li>Bus 248 direkt vor der Tür</li>
+        <li>Drei Parkplätze im Hof, Einfahrt links</li>
+        <li>Fahrradbügel am Eingang</li>
+      </ul>
+    </div>
+  </section>
+
+  <section style="display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:40px;align-items:center;padding:90px 0 0">
+    <div style="border-radius:18px;background:repeating-linear-gradient(135deg,#E4EDE5 0 8px,#EFF3EB 8px 16px);aspect-ratio:16/10;display:flex;align-items:flex-end;padding:16px">
+      <span style="font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:#5F6F66;background:#F7F5EF;padding:6px 9px;border-radius:5px">Kartenausschnitt Hauptstraße 14</span>
+    </div>
+    <div>
+      <h2 style="font-family:Newsreader,Georgia,serif;font-weight:400;font-size:36px;line-height:1.16;letter-spacing:-.015em;margin:0">Was Sie zum ersten Termin mitbringen</h2>
+      <div style="display:grid;gap:14px;margin-top:24px;font-size:16px;line-height:1.6;color:#5F6F66">
+        <div style="display:flex;gap:12px"><span style="color:#4F7A63">&mdash;</span><span>Rezept und Versichertenkarte</span></div>
+        <div style="display:flex;gap:12px"><span style="color:#4F7A63">&mdash;</span><span>Bequeme Kleidung, in der Sie sich bewegen können</span></div>
+        <div style="display:flex;gap:12px"><span style="color:#4F7A63">&mdash;</span><span>Befunde oder Bilder, falls vorhanden</span></div>
+        <div style="display:flex;gap:12px"><span style="color:#4F7A63">&mdash;</span><span>Etwas Geduld beim Papierkram – zehn Minuten, einmalig</span></div>
+      </div>
+      <a href="tel:+4930123456" style="display:inline-flex;align-items:center;padding:16px 26px;border-radius:999px;background:#4F7A63;color:#FBFAF6;font-size:17px;font-weight:600;margin-top:28px">Termin vereinbaren: 030 123 456</a>
+    </div>
+  </section>
+
+  <footer style="display:flex;flex-wrap:wrap;gap:24px;justify-content:space-between;align-items:center;margin-top:80px;padding:30px 0;border-top:1px solid #E7E2D6">
+    <div style="font-size:14px;color:#8A9690">Praxis Lindwerk &middot; Physiotherapie &middot; Berlin-Friedenau</div>
+    <div style="display:flex;gap:22px">
+      <a href="Startseite.dc.html" style="font-size:14px;color:#5F6F66">Startseite</a>
+      <a href="Leistungen.dc.html" style="font-size:14px;color:#5F6F66">Leistungen</a>
+      <a href="Startseite.dc.html#kontakt" style="font-size:14px;color:#5F6F66">Kontakt</a>
+    </div>
+  </footer>
+</div>
+
+</x-dc>
+</body>
+</html>
