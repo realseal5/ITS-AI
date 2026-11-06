@@ -9,8 +9,8 @@
 <x-dc>
 <helmet>
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&family=Figtree:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&amp;family=Figtree:wght@400;500;600&amp;display=swap" rel="stylesheet">
 <style>
   *{box-sizing:border-box}
   html{scroll-behavior:smooth}
@@ -20,32 +20,37 @@
   p{text-wrap:pretty}
 </style>
 </helmet>
-<div style="max-width:1180px;margin:0 auto;padding:0 28px 0">
+<div style="background:#F7F5EF;color:#22302A;font-family:Figtree,'Helvetica Neue',Helvetica,sans-serif;min-height:100vh;padding:0 max(28px, calc((100% - 1124px) / 2))">
 
   <header style="position:sticky;top:0;z-index:20;display:flex;align-items:center;justify-content:space-between;gap:24px;padding:18px 0;background:rgba(247,245,239,.92);backdrop-filter:blur(8px);border-bottom:1px solid #E7E2D6">
     <a href="Startseite.dc.html" style="display:flex;align-items:center;gap:10px">
       <span style="width:26px;height:26px;border-radius:50%;background:#4F7A63;display:block"></span>
-      <span style="font-family:Newsreader,Georgia,serif;font-size:21px;color:#22302A;letter-spacing:-.01em">Praxis Lindwerk</span>
+      <span style="display:flex;flex-direction:column;gap:1px"><span style="font-family:Newsreader,Georgia,serif;font-size:21px;line-height:1.1;color:#22302A;letter-spacing:-.01em">Physiotherapie im Weilerhof</span></span>
     </a>
     <nav style="display:flex;align-items:center;gap:28px">
-      <a href="Leistungen.dc.html" style="font-size:15px;color:#5F6F66">Leistungen</a>
+      <a href="#leistungen" style="font-size:15px;color:#5F6F66">Leistungen</a>
       <a href="#team" style="font-size:15px;color:#5F6F66">Team</a>
-      <a href="Praxis.dc.html" style="font-size:15px;color:#5F6F66">Praxis</a>
-      <a href="#kontakt" style="font-size:15px;color:#5F6F66">Kontakt</a>
-      <a href="tel:+4930123456" style="display:inline-flex;align-items:center;gap:8px;padding:11px 18px;border-radius:999px;background:#4F7A63;color:#FBFAF6;font-size:15px;font-weight:500">030 123 456</a>
+      <a href="#praxis" style="font-size:15px;color:#5F6F66">Praxis</a>
+      <a href="#kontakt" style="font-size:15px;color:#5F6F66">Kontakt &amp; Öffnungszeiten</a>
     </nav>
   </header>
 
-  <section style="display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,.95fr);gap:56px;align-items:center;padding:76px 0 88px">
+  <section style="display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,.95fr);gap:56px;align-items:start;padding:44px 0 88px">
     <div>
-      <div style="display:inline-flex;align-items:center;gap:9px;padding:7px 14px;border-radius:999px;background:#E4EDE5;color:#3C5F4C;font-size:13px;font-weight:500;letter-spacing:.01em">Physiotherapie in Berlin-Friedenau</div>
-      <h1 style="font-family:Newsreader,Georgia,serif;font-weight:400;font-size:62px;line-height:1.06;letter-spacing:-.02em;margin:22px 0 0">Bewegung, die sich wieder gut anfühlt.</h1>
-      <p style="font-size:19px;line-height:1.62;color:#5F6F66;margin:22px 0 0;max-width:40ch">Wir nehmen uns Zeit: 45 Minuten, ein Therapeut, ein Plan. Manuelle Therapie und klassische Physiotherapie für Menschen, die ihren Alltag ohne Schmerzen zurückwollen.</p>
+      <div style="display:flex;flex-wrap:wrap;align-items:center;gap:12px">
+        <div style="display:inline-flex;align-items:center;gap:9px;padding:7px 14px;border-radius:999px;background:#E4EDE5;color:#3C5F4C;font-size:13px;font-weight:500;letter-spacing:.01em">Physiotherapie in Uhingen</div>
+        <a href="#bewertung" style="display:inline-flex;align-items:center;gap:8px;padding:6px 14px;border-radius:999px;background:#FBFAF6;border:1px solid #E7E2D6;font-size:13px;font-weight:500;color:#22302A" style-hover="border-color:#CFD6CA">
+          <span style="color:#C9A227;font-size:15px;letter-spacing:1px">★★★★★</span>
+          <span>5,0 auf Google</span>
+        </a>
+      </div>
+      <h1 lang="de" style="hyphens:auto;-webkit-hyphens:auto;overflow-wrap:break-word;font-family: Newsreader,Georgia,serif; font-weight: 400; font-size: 62px; line-height: 1.06; letter-spacing: -.02em; margin: 22px 0 0">Ihre Physiotherapiepraxis in Uhingen</h1>
+      <p style="font-size:19px;line-height:1.62;color:#5F6F66;margin:22px 0 0;max-width:40ch">Manuelle Therapie, Krankengymnastik, Lymphdrainage und ergänzende Anwendungen.</p>
       <div style="display:flex;flex-wrap:wrap;gap:14px;margin-top:34px">
         <a href="tel:+4930123456" style="display:inline-flex;align-items:center;gap:10px;padding:16px 26px;border-radius:999px;background:#4F7A63;color:#FBFAF6;font-size:17px;font-weight:600">Termin telefonisch vereinbaren</a>
-        <a href="#kontakt" style="display:inline-flex;align-items:center;padding:16px 24px;border-radius:999px;border:1px solid #CFD6CA;color:#3C5F4C;font-size:17px;font-weight:500">Öffnungszeiten ansehen</a>
+        <a href="#kontakt" style="display:inline-flex;align-items:center;padding:16px 24px;border-radius:999px;border:1px solid #CFD6CA;color:#3C5F4C;font-size:17px;font-weight:500">Telefonische Erreichbarkeit ansehen</a>
       </div>
-      <p style="font-size:14px;color:#8A9690;margin:18px 0 0">Alle Kassen &middot; Rezept einfach mitbringen &middot; Termine meist innerhalb einer Woche</p>
+      
     </div>
     <div style="border-radius:20px;overflow:hidden;background:repeating-linear-gradient(135deg,#E4EDE5 0 8px,#EFF3EB 8px 16px);aspect-ratio:4/5;display:flex;align-items:flex-end;padding:20px">
       <span style="font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:#5F6F66;background:#F7F5EF;padding:7px 11px;border-radius:6px">Bild: Behandlungsraum</span>
@@ -54,193 +59,933 @@
 
   <section style="display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:1px;background:#E7E2D6;border-radius:16px;overflow:hidden;border:1px solid #E7E2D6">
     <div style="background:#FBFAF6;padding:26px 24px">
-      <div style="font-family:Newsreader,Georgia,serif;font-size:34px;line-height:1">45 Min.</div>
-      <div style="font-size:14px;color:#5F6F66;margin-top:6px">Behandlungszeit, ohne Hetze</div>
+      <div style="font-family:Newsreader,Georgia,serif;font-size:34px;line-height:1">???</div>
+      <div style="font-size:14px;color:#5F6F66;margin-top:6px">???</div>
     </div>
     <div style="background:#FBFAF6;padding:26px 24px">
-      <div style="font-family:Newsreader,Georgia,serif;font-size:34px;line-height:1">4</div>
-      <div style="font-size:14px;color:#5F6F66;margin-top:6px">Therapeutinnen und Therapeuten</div>
+      <div style="font-family:Newsreader,Georgia,serif;font-size:34px;line-height:1">3</div>
+      <div style="font-size:14px;color:#5F6F66;margin-top:6px">Therapeuten</div>
     </div>
     <div style="background:#FBFAF6;padding:26px 24px">
-      <div style="font-family:Newsreader,Georgia,serif;font-size:34px;line-height:1">seit 2012</div>
-      <div style="font-size:14px;color:#5F6F66;margin-top:6px">im Viertel zu Hause</div>
+      <div style="font-family:Newsreader,Georgia,serif;font-size:34px;line-height:1">seit 1991</div>
+      <div style="font-size:14px;color:#5F6F66;margin-top:6px">in Uhingen</div>
     </div>
     <div style="background:#FBFAF6;padding:26px 24px">
-      <div style="font-family:Newsreader,Georgia,serif;font-size:34px;line-height:1">alle Kassen</div>
-      <div style="font-size:14px;color:#5F6F66;margin-top:6px">gesetzlich und privat</div>
+      <div style="font-family:Newsreader,Georgia,serif;font-size:34px;line-height:1">Gesetzlich und Privat</div>
+      
     </div>
   </section>
 
-  <section id="leistungen" style="padding:100px 0 0">
+  <section id="leistungen" style="scroll-margin-top:110px;margin:72px -28px 0;padding:28px;border-radius:24px">
     <div style="display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:20px">
       <div>
         <div style="font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:#8A9690">Leistungen</div>
-        <h2 style="font-family:Newsreader,Georgia,serif;font-weight:400;font-size:42px;line-height:1.14;letter-spacing:-.015em;margin:14px 0 0;max-width:24ch">Behandlung, die zu Ihrer Beschwerde passt</h2>
+        <h2 style="font-family:Newsreader,Georgia,serif;font-weight:400;font-size:42px;line-height:1.14;letter-spacing:-.015em;margin:14px 0 0;max-width:24ch">Behandlungen im Überblick</h2>
       </div>
-      <a href="Leistungen.dc.html" style="font-size:16px;font-weight:500;border-bottom:1px solid #CFD6CA;padding-bottom:3px">Alle Leistungen im Detail</a>
     </div>
     <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px;margin-top:38px">
       <div style="background:#FBFAF6;border:1px solid #E7E2D6;border-radius:16px;padding:28px">
         <h3 style="font-family:Newsreader,Georgia,serif;font-weight:500;font-size:23px;margin:0">Manuelle Therapie</h3>
-        <p style="font-size:16px;line-height:1.6;color:#5F6F66;margin:12px 0 0">Gezielte Mobilisation von Gelenken und Gewebe – bei Nacken-, Schulter- und Rückenbeschwerden unsere häufigste Behandlung.</p>
+        <p style="font-size:16px;line-height:1.6;color:#5F6F66;margin:12px 0 0">Mobilisation von Gelenken und Gewebe, u. a. bei Nacken-, Schulter- und Rückenbeschwerden.</p>
       </div>
       <div style="background:#FBFAF6;border:1px solid #E7E2D6;border-radius:16px;padding:28px">
         <h3 style="font-family:Newsreader,Georgia,serif;font-weight:500;font-size:23px;margin:0">Klassische Physiotherapie</h3>
-        <p style="font-size:16px;line-height:1.6;color:#5F6F66;margin:12px 0 0">Aktive Übungen, Kräftigung und Haltungsarbeit. Sie lernen, was Ihrem Körper zwischen den Terminen hilft.</p>
+        <p style="font-size:16px;line-height:1.6;color:#5F6F66;margin:12px 0 0">Aktive Übungen, Kräftigung und Haltungsarbeit, ergänzt durch Übungen für zu Hause.</p>
       </div>
       <div style="background:#FBFAF6;border:1px solid #E7E2D6;border-radius:16px;padding:28px">
         <h3 style="font-family:Newsreader,Georgia,serif;font-weight:500;font-size:23px;margin:0">Krankengymnastik am Gerät</h3>
-        <p style="font-size:16px;line-height:1.6;color:#5F6F66;margin:12px 0 0">Aufbau nach Operationen und Verletzungen – begleitet, dosiert und in kleinen Gruppen von maximal drei Personen.</p>
+        <p style="font-size:16px;line-height:1.6;color:#5F6F66;margin:12px 0 0">Aufbautraining nach Operationen und Verletzungen, in Gruppen von maximal drei Personen.</p>
       </div>
       <div style="background:#FBFAF6;border:1px solid #E7E2D6;border-radius:16px;padding:28px">
         <h3 style="font-family:Newsreader,Georgia,serif;font-weight:500;font-size:23px;margin:0">Lymphdrainage</h3>
-        <p style="font-size:16px;line-height:1.6;color:#5F6F66;margin:12px 0 0">Sanfte Entstauung bei Schwellungen, nach Operationen oder bei chronischen Beschwerden.</p>
+        <p style="font-size:16px;line-height:1.6;color:#5F6F66;margin:12px 0 0">Entstauung bei Schwellungen, nach Operationen oder bei chronischen Beschwerden.</p>
       </div>
       <div style="background:#FBFAF6;border:1px solid #E7E2D6;border-radius:16px;padding:28px">
-        <h3 style="font-family:Newsreader,Georgia,serif;font-weight:500;font-size:23px;margin:0">Wärme, Kälte, Massage</h3>
-        <p style="font-size:16px;line-height:1.6;color:#5F6F66;margin:12px 0 0">Ergänzende Anwendungen, die Muskulatur lösen und die eigentliche Therapie vorbereiten.</p>
+        <h3 style="font-family:Newsreader,Georgia,serif;font-weight:500;font-size:23px;margin:0">Wärmebehandlung</h3>
+        <p style="font-size:16px;line-height:1.6;color:#5F6F66;margin:12px 0 0">Ergänzende Anwendungen zur Lockerung der Muskulatur.</p>
       </div>
       <div style="background:#E4EDE5;border:1px solid #D4E0D6;border-radius:16px;padding:28px;display:flex;flex-direction:column;justify-content:space-between;gap:18px">
-        <h3 style="font-family:Newsreader,Georgia,serif;font-weight:500;font-size:23px;margin:0;color:#2C4A3A">Nicht sicher, was passt?</h3>
-        <p style="font-size:16px;line-height:1.6;color:#3C5F4C;margin:0">Rufen Sie an – wir hören zu und sagen offen, ob wir die richtige Adresse sind.</p>
-        <a href="tel:+4930123456" style="font-size:16px;font-weight:600;color:#2C4A3A;border-bottom:1px solid #A9C2B0;padding-bottom:3px;align-self:flex-start">030 123 456</a>
+        <h3 style="font-family:Newsreader,Georgia,serif;font-weight:500;font-size:23px;margin:0;color:#2C4A3A">Fragen zur Behandlung?</h3>
+        <p style="font-size:16px;line-height:1.6;color:#3C5F4C;margin:0">Wir beraten Sie gerne telefonisch.</p>
+        <a href="tel:+4930123456" style="font-size:16px;font-weight:600;color:#2C4A3A;border-bottom:1px solid #A9C2B0;padding-bottom:3px;align-self:flex-start">07161 39237</a>
       </div>
     </div>
   </section>
 
-  <section id="ueber-uns" style="display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);gap:56px;align-items:center;padding:110px 0 0">
-    <div style="border-radius:20px;overflow:hidden;background:repeating-linear-gradient(135deg,#E4EDE5 0 8px,#EFF3EB 8px 16px);aspect-ratio:1/1;display:flex;align-items:flex-end;padding:20px">
-      <span style="font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:#5F6F66;background:#F7F5EF;padding:7px 11px;border-radius:6px">Porträt: Praxisleitung</span>
-    </div>
-    <div>
-      <div style="font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:#8A9690">Über uns</div>
-      <h2 style="font-family:Newsreader,Georgia,serif;font-weight:400;font-size:42px;line-height:1.14;letter-spacing:-.015em;margin:14px 0 0">„Zuhören ist der erste Teil der Behandlung.“</h2>
-      <p style="font-size:18px;line-height:1.66;color:#5F6F66;margin:20px 0 0;max-width:52ch">Ich bin Merle Lindwerk, Physiotherapeutin seit 2006 und habe die Praxis 2012 in Friedenau eröffnet. Was damals als Ein-Raum-Praxis begann, ist heute ein kleines Team, das denselben Anspruch teilt: genug Zeit pro Termin, klare Erklärungen und ein Plan, den Sie auch ohne uns weiterführen können.</p>
-      <p style="font-size:18px;line-height:1.66;color:#5F6F66;margin:16px 0 0;max-width:52ch">Wir behandeln nach manualtherapeutischen Konzepten, arbeiten eng mit Ärztinnen und Ärzten im Viertel zusammen und nehmen uns bewusst weniger Patienten am Tag vor.</p>
-      <div style="display:flex;flex-wrap:wrap;gap:10px;margin-top:26px">
-        <span style="padding:8px 14px;border-radius:999px;background:#FBFAF6;border:1px solid #E7E2D6;font-size:14px;color:#3C5F4C">Manuelle Therapie (OMT)</span>
-        <span style="padding:8px 14px;border-radius:999px;background:#FBFAF6;border:1px solid #E7E2D6;font-size:14px;color:#3C5F4C">Lymphdrainage</span>
-        <span style="padding:8px 14px;border-radius:999px;background:#FBFAF6;border:1px solid #E7E2D6;font-size:14px;color:#3C5F4C">Sportphysiotherapie</span>
-      </div>
-    </div>
-  </section>
+  
 
-  <section id="team" style="padding:110px 0 0">
-    <div style="font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:#8A9690">Team</div>
-    <h2 style="font-family:Newsreader,Georgia,serif;font-weight:400;font-size:42px;line-height:1.14;letter-spacing:-.015em;margin:14px 0 0">Vier Menschen, ein Ansatz</h2>
-    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:22px;margin-top:38px">
+  <section id="team" style="scroll-margin-top:110px;margin:82px -28px 0;padding:28px;border-radius:24px">
+    
+    
+    <h2 style="font-family:Newsreader,Georgia,serif;font-weight:400;font-size:42px;line-height:1.14;letter-spacing:-.015em;margin:14px 0 0">Unser Team</h2><div style="font-family: ui-monospace,SFMono-Regular,Menlo,monospace; font-size: 12px; letter-spacing: 0.12em; text-transform: uppercase; color: #8A9690; width: 991px; height: 13px">THERAPEUTEN</div><div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:22px;margin-top:38px">
       <div>
         <div style="border-radius:16px;overflow:hidden;background:repeating-linear-gradient(135deg,#E4EDE5 0 8px,#EFF3EB 8px 16px);aspect-ratio:3/4;display:flex;align-items:flex-end;padding:14px">
           <span style="font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:#5F6F66;background:#F7F5EF;padding:6px 9px;border-radius:5px">Porträt</span>
         </div>
-        <h3 style="font-family:Newsreader,Georgia,serif;font-weight:500;font-size:21px;margin:16px 0 0">Merle Lindwerk</h3>
-        <div style="font-size:14px;color:#4F7A63;margin-top:4px">Praxisleitung, Manuelle Therapie</div>
-        <p style="font-size:15px;line-height:1.6;color:#5F6F66;margin:10px 0 0">Schwerpunkt Nacken und Schulter. Fragt viel, erklärt viel.</p>
+        <h3 style="font-family:Newsreader,Georgia,serif;font-weight:500;font-size:21px;margin:16px 0 0">Pavlos Korezelidis</h3>
+        <div style="font-size:14px;color:#4F7A63;margin-top:4px">Praxisleitung</div>
+        <p style="font-size:15px;line-height:1.6;color:#5F6F66;margin:10px 0 0">Krankengymnastik, Manuelle Therapie, Klassische Massagetherapie, Faszientherapie</p>
       </div>
       <div>
         <div style="border-radius:16px;overflow:hidden;background:repeating-linear-gradient(135deg,#E4EDE5 0 8px,#EFF3EB 8px 16px);aspect-ratio:3/4;display:flex;align-items:flex-end;padding:14px">
           <span style="font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:#5F6F66;background:#F7F5EF;padding:6px 9px;border-radius:5px">Porträt</span>
         </div>
-        <h3 style="font-family:Newsreader,Georgia,serif;font-weight:500;font-size:21px;margin:16px 0 0">Jonas Feld</h3>
-        <div style="font-size:14px;color:#4F7A63;margin-top:4px">Physiotherapeut, KG am Gerät</div>
-        <p style="font-size:15px;line-height:1.6;color:#5F6F66;margin:10px 0 0">Begleitet den Aufbau nach Knie- und Hüft-Operationen.</p>
+        <h3 style="font-family:Newsreader,Georgia,serif;font-weight:500;font-size:21px;margin:16px 0 0">Ursula K.</h3>
+        <div style="font-size:14px;color:#4F7A63;margin-top:4px">Physiotherapeutin</div>
+        <p style="font-size:15px;line-height:1.6;color:#5F6F66;margin:10px 0 0">Krankengymnastik,&nbsp;Klassische Massagetherapie,&nbsp;<!--[if gte mso 9]><xml>
+ <o:OfficeDocumentSettings>
+  <o:AllowPNG/>
+ </o:OfficeDocumentSettings>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:View>Normal</w:View>
+  <w:Zoom>0</w:Zoom>
+  <w:TrackMoves>false</w:TrackMoves>
+  <w:TrackFormatting/>
+  <w:HyphenationZone>21</w:HyphenationZone>
+  <w:PunctuationKerning/>
+  <w:ValidateAgainstSchemas/>
+  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
+  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
+  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
+  <w:DoNotPromoteQF/>
+  <w:LidThemeOther>DE</w:LidThemeOther>
+  <w:LidThemeAsian>X-NONE</w:LidThemeAsian>
+  <w:LidThemeComplexScript>X-NONE</w:LidThemeComplexScript>
+  <w:Compatibility>
+   <w:BreakWrappedTables/>
+   <w:SnapToGridInCell/>
+   <w:WrapTextWithPunct/>
+   <w:UseAsianBreakRules/>
+   <w:DontGrowAutofit/>
+   <w:SplitPgBreakAndParaMark/>
+   <w:EnableOpenTypeKerning/>
+   <w:DontFlipMirrorIndents/>
+   <w:OverrideTableStyleHps/>
+  </w:Compatibility>
+  <m:mathPr>
+   <m:mathFont m:val="Cambria Math"/>
+   <m:brkBin m:val="before"/>
+   <m:brkBinSub m:val="&#45;-"/>
+   <m:smallFrac m:val="off"/>
+   <m:dispDef/>
+   <m:lMargin m:val="0"/>
+   <m:rMargin m:val="0"/>
+   <m:defJc m:val="centerGroup"/>
+   <m:wrapIndent m:val="1440"/>
+   <m:intLim m:val="subSup"/>
+   <m:naryLim m:val="undOvr"/>
+  </m:mathPr></w:WordDocument>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="false"
+  DefSemiHidden="false" DefQFormat="false" DefPriority="99"
+  LatentStyleCount="376">
+  <w:LsdException Locked="false" Priority="0" QFormat="true" Name="Normal"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 1"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 2"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 3"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 4"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 5"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 6"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 7"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 8"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 9"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 6"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 7"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 8"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 9"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 1"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 2"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 3"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 4"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 5"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 6"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 7"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 8"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 9"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Normal Indent"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="footnote text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="annotation text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="header"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="footer"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index heading"/>
+  <w:LsdException Locked="false" Priority="35" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="caption"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="table of figures"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="envelope address"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="envelope return"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="footnote reference"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="annotation reference"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="line number"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="page number"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="endnote reference"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="endnote text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="table of authorities"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="macro"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="toa heading"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Bullet"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Number"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Bullet 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Bullet 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Bullet 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Bullet 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Number 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Number 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Number 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Number 5"/>
+  <w:LsdException Locked="false" Priority="10" QFormat="true" Name="Title"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Closing"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Signature"/>
+  <w:LsdException Locked="false" Priority="1" SemiHidden="true"
+   UnhideWhenUsed="true" Name="Default Paragraph Font"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text Indent"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Continue"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Continue 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Continue 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Continue 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Continue 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Message Header"/>
+  <w:LsdException Locked="false" Priority="11" QFormat="true" Name="Subtitle"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Salutation"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Date"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text First Indent"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text First Indent 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Note Heading"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text Indent 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text Indent 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Block Text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Hyperlink"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="FollowedHyperlink"/>
+  <w:LsdException Locked="false" Priority="22" QFormat="true" Name="Strong"/>
+  <w:LsdException Locked="false" Priority="20" QFormat="true" Name="Emphasis"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Document Map"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Plain Text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="E-mail Signature"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Top of Form"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Bottom of Form"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Normal (Web)"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Acronym"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Address"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Cite"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Code"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Definition"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Keyboard"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Preformatted"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Sample"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Typewriter"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Variable"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Normal Table"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="annotation subject"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="No List"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Outline List 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Outline List 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Outline List 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Simple 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Simple 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Simple 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Classic 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Classic 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Classic 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Classic 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Colorful 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Colorful 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Colorful 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Columns 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Columns 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Columns 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Columns 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Columns 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 6"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 7"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 8"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 6"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 7"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 8"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table 3D effects 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table 3D effects 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table 3D effects 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Contemporary"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Elegant"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Professional"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Subtle 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Subtle 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Web 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Web 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Web 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Balloon Text"/>
+  <w:LsdException Locked="false" Priority="39" Name="Table Grid"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Theme"/>
+  <w:LsdException Locked="false" SemiHidden="true" Name="Placeholder Text"/>
+  <w:LsdException Locked="false" Priority="1" QFormat="true" Name="No Spacing"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 1"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 1"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 1"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 1"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" Name="Revision"/>
+  <w:LsdException Locked="false" Priority="34" QFormat="true"
+   Name="List Paragraph"/>
+  <w:LsdException Locked="false" Priority="29" QFormat="true" Name="Quote"/>
+  <w:LsdException Locked="false" Priority="30" QFormat="true"
+   Name="Intense Quote"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 1"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 1"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 1"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 1"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 1"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 1"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 2"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 2"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 2"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 2"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 2"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 2"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 2"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 2"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 3"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 3"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 3"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 3"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 3"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 3"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 3"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 3"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 4"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 4"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 4"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 4"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 4"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 4"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 4"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 4"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 5"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 5"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 5"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 5"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 5"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 5"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 5"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 5"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 6"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 6"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 6"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 6"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 6"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 6"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 6"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 6"/>
+  <w:LsdException Locked="false" Priority="19" QFormat="true"
+   Name="Subtle Emphasis"/>
+  <w:LsdException Locked="false" Priority="21" QFormat="true"
+   Name="Intense Emphasis"/>
+  <w:LsdException Locked="false" Priority="31" QFormat="true"
+   Name="Subtle Reference"/>
+  <w:LsdException Locked="false" Priority="32" QFormat="true"
+   Name="Intense Reference"/>
+  <w:LsdException Locked="false" Priority="33" QFormat="true" Name="Book Title"/>
+  <w:LsdException Locked="false" Priority="37" SemiHidden="true"
+   UnhideWhenUsed="true" Name="Bibliography"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="TOC Heading"/>
+  <w:LsdException Locked="false" Priority="41" Name="Plain Table 1"/>
+  <w:LsdException Locked="false" Priority="42" Name="Plain Table 2"/>
+  <w:LsdException Locked="false" Priority="43" Name="Plain Table 3"/>
+  <w:LsdException Locked="false" Priority="44" Name="Plain Table 4"/>
+  <w:LsdException Locked="false" Priority="45" Name="Plain Table 5"/>
+  <w:LsdException Locked="false" Priority="40" Name="Grid Table Light"/>
+  <w:LsdException Locked="false" Priority="46" Name="Grid Table 1 Light"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark"/>
+  <w:LsdException Locked="false" Priority="51" Name="Grid Table 6 Colorful"/>
+  <w:LsdException Locked="false" Priority="52" Name="Grid Table 7 Colorful"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 1"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 1"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 1"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 1"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 1"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 1"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 2"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 2"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 2"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 2"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 2"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 2"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 3"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 3"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 3"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 3"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 3"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 3"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 4"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 4"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 4"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 4"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 4"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 4"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 5"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 5"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 5"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 5"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 5"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 5"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 6"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 6"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 6"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 6"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 6"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 6"/>
+  <w:LsdException Locked="false" Priority="46" Name="List Table 1 Light"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark"/>
+  <w:LsdException Locked="false" Priority="51" Name="List Table 6 Colorful"/>
+  <w:LsdException Locked="false" Priority="52" Name="List Table 7 Colorful"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 1"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 1"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 1"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 1"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 1"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 1"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 2"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 2"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 2"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 2"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 2"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 2"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 3"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 3"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 3"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 3"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 3"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 3"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 4"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 4"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 4"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 4"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 4"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 4"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 5"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 5"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 5"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 5"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 5"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 5"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 6"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 6"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 6"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 6"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 6"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 6"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Mention"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Smart Hyperlink"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Hashtag"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Unresolved Mention"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Smart Link"/>
+ </w:LatentStyles>
+</xml><![endif]--><!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:"Normale Tabelle";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-parent:"";
+	mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
+	mso-para-margin-top:0cm;
+	mso-para-margin-right:0cm;
+	mso-para-margin-bottom:8.0pt;
+	mso-para-margin-left:0cm;
+	line-height:115%;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Aptos",sans-serif;
+	mso-ascii-font-family:Aptos;
+	mso-ascii-theme-font:minor-latin;
+	mso-hansi-font-family:Aptos;
+	mso-hansi-theme-font:minor-latin;
+	mso-font-kerning:1.0pt;
+	mso-ligatures:standardcontextual;
+	mso-fareast-language:EN-US;}
+</style>
+<![endif]--><span style="font-size:12.0pt;line-height:115%;
+font-family:&quot;Aptos&quot;,sans-serif;mso-ascii-theme-font:minor-latin;mso-fareast-font-family:
+Aptos;mso-fareast-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;
+mso-bidi-font-family:&quot;Times New Roman&quot;;mso-bidi-theme-font:minor-bidi;
+mso-ansi-language:DE;mso-fareast-language:EN-US;mso-bidi-language:AR-SA">KG-ZNS</span>, Hausbesuche</p>
       </div>
       <div>
         <div style="border-radius:16px;overflow:hidden;background:repeating-linear-gradient(135deg,#E4EDE5 0 8px,#EFF3EB 8px 16px);aspect-ratio:3/4;display:flex;align-items:flex-end;padding:14px">
           <span style="font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:#5F6F66;background:#F7F5EF;padding:6px 9px;border-radius:5px">Porträt</span>
         </div>
-        <h3 style="font-family:Newsreader,Georgia,serif;font-weight:500;font-size:21px;margin:16px 0 0">Aylin Kurt</h3>
-        <div style="font-size:14px;color:#4F7A63;margin-top:4px">Physiotherapeutin, Lymphdrainage</div>
-        <p style="font-size:15px;line-height:1.6;color:#5F6F66;margin:10px 0 0">Ruhige Hände, viel Erfahrung mit Schwellungen nach OPs.</p>
+        <h3 style="font-family:Newsreader,Georgia,serif;font-weight:500;font-size:21px;margin:16px 0 0">Tobias E.</h3>
+        <div style="font-size:14px;color:#4F7A63;margin-top:4px">Physiotherapeut</div>
+        <p style="font-size:15px;line-height:1.6;color:#5F6F66;margin:10px 0 0">Krankengymnastik, Manuelle Therapie, Lymphdrainage, Klassische Massagetherapie, KG-ZNS, Hausbesuche</p>
       </div>
+    </div>
+    <div style="font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:#8A9690;margin-top:56px">Empfang</div>
+    <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:22px;margin-top:20px">
       <div>
         <div style="border-radius:16px;overflow:hidden;background:repeating-linear-gradient(135deg,#E4EDE5 0 8px,#EFF3EB 8px 16px);aspect-ratio:3/4;display:flex;align-items:flex-end;padding:14px">
           <span style="font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:#5F6F66;background:#F7F5EF;padding:6px 9px;border-radius:5px">Porträt</span>
         </div>
-        <h3 style="font-family:Newsreader,Georgia,serif;font-weight:500;font-size:21px;margin:16px 0 0">Tobias Renn</h3>
+        <h3 style="font-family:Newsreader,Georgia,serif;font-weight:500;font-size:21px;margin:16px 0 0">Karin K</h3>
         <div style="font-size:14px;color:#4F7A63;margin-top:4px">Empfang und Terminplanung</div>
-        <p style="font-size:15px;line-height:1.6;color:#5F6F66;margin:10px 0 0">Nimmt Ihren Anruf an und findet meist schneller einen Termin als gedacht.</p>
+        
+      </div>
+      <div>
+        <div style="border-radius:16px;overflow:hidden;background:repeating-linear-gradient(135deg,#E4EDE5 0 8px,#EFF3EB 8px 16px);aspect-ratio:3/4;display:flex;align-items:flex-end;padding:14px">
+          <span style="font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:#5F6F66;background:#F7F5EF;padding:6px 9px;border-radius:5px">Porträt</span>
+        </div>
+        <h3 style="font-family:Newsreader,Georgia,serif;font-weight:500;font-size:21px;margin:16px 0 0">Inge Ö.</h3>
+        <div style="font-size:14px;color:#4F7A63;margin-top:4px">Empfang und Terminplanung</div>
+        
       </div>
     </div>
   </section>
 
   <sc-if value="{{ showTestimonials }}" hint-placeholder-val="{{ true }}">
   <section style="padding:110px 0 0">
-    <div style="font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:#8A9690">Was Patienten sagen</div>
-    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:18px;margin-top:30px">
-      <blockquote style="margin:0;background:#FBFAF6;border:1px solid #E7E2D6;border-radius:16px;padding:30px">
-        <p style="font-family:Newsreader,Georgia,serif;font-size:21px;line-height:1.5;margin:0;color:#22302A">„Nach zwei Jahren Rückenschmerzen hatte ich wenig Hoffnung. Hier wurde zum ersten Mal erklärt, woran es liegt.“</p>
-        <footer style="font-size:14px;color:#8A9690;margin-top:18px">Katrin S., 48</footer>
+    <h2 style="font-family:Newsreader,Georgia,serif;font-weight:400;font-size:42px;line-height:1.14;letter-spacing:-.015em;margin:0 0 14px">Bewertungen</h2>
+    <div style="font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:#8A9690">WAS PATIENTEN SAGEN ???</div>
+    <div style="display:grid;grid-template-columns:minmax(0,2fr) minmax(0,1fr);gap:18px;margin-top:30px">
+      <blockquote style="margin:0;background:#FBFAF6;border:1px solid #E7E2D6;border-radius:16px;padding:36px">
+        <p style="font-family:Newsreader,Georgia,serif;font-size:21px;line-height:1.5;margin:0;color:#22302A"><span class="wiI7pd">Unsere Physiotherapeutin begleitet uns nun schon seit mehreren Monaten, und wir könnten nicht zufriedener sein. Sie ist unglaublich engagiert, steht uns stets mit Rat und Tat zur Seite und macht ihre Arbeit einfach hervorragend. Ihre freundliche Art, ihre Kompetenz und ihr Einsatz sind für uns eine große Unterstützung. Wir sind sehr dankbar, eine so tolle Therapeutin gefunden zu haben, und möchten uns von Herzen für alles bedanken, was sie für uns tut. ❤️</span></p>
+        <footer style="font-size:14px;color:#8A9690;margin-top:18px">Eda Y.</footer>
       </blockquote>
       <blockquote style="margin:0;background:#FBFAF6;border:1px solid #E7E2D6;border-radius:16px;padding:30px">
-        <p style="font-family:Newsreader,Georgia,serif;font-size:21px;line-height:1.5;margin:0;color:#22302A">„Sechs Wochen nach der Knie-OP war ich wieder auf dem Rad. Der Aufbau war streng, aber nie überfordernd.“</p>
+        <p style="font-family:Newsreader,Georgia,serif;font-size:21px;line-height:1.5;margin:0;color:#22302A">BEISPIEL!<br>„Sechs Wochen nach der Knie-OP war ich wieder auf dem Rad. Der Aufbau war streng, aber nie überfordernd.“&nbsp;</p>
         <footer style="font-size:14px;color:#8A9690;margin-top:18px">Milan D., 35</footer>
-      </blockquote>
-      <blockquote style="margin:0;background:#FBFAF6;border:1px solid #E7E2D6;border-radius:16px;padding:30px">
-        <p style="font-family:Newsreader,Georgia,serif;font-size:21px;line-height:1.5;margin:0;color:#22302A">„Man merkt, dass hier niemand auf die Uhr schaut. Das ist selten geworden.“</p>
-        <footer style="font-size:14px;color:#8A9690;margin-top:18px">Helga W., 71</footer>
       </blockquote>
     </div>
   </section>
   </sc-if>
 
-  <sc-if value="{{ showGallery }}" hint-placeholder-val="{{ true }}">
-  <section style="padding:110px 0 0">
-    <div style="display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:20px">
-      <div>
-        <div style="font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:#8A9690">Praxis</div>
-        <h2 style="font-family:Newsreader,Georgia,serif;font-weight:400;font-size:42px;line-height:1.14;letter-spacing:-.015em;margin:14px 0 0">Helle Räume, ruhige Ecken</h2>
+  <section id="bewertung" style="scroll-margin-top:200px;padding:56px 0 0">
+    <div data-highlight="" style="background:#FBFAF6;border:1px solid #E7E2D6;border-radius:22px;padding:36px 40px;display:grid;gap:22px">
+      <div style="display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:20px">
+        <div>
+          <h2 style="font-family:Newsreader,Georgia,serif;font-weight:400;font-size:32px;line-height:1.2;letter-spacing:-.01em;margin:0;color:#22302A">Waren Sie bei uns in Behandlung?</h2>
+          <p style="font-size:16px;line-height:1.6;color:#5F6F66;margin:8px 0 0">Wir freuen uns über Ihre Rückmeldung.</p>
+        </div>
+        <sc-if value="{{ isIdle }}" hint-placeholder-val="{{ true }}">
+          <div style="display:flex;flex-wrap:wrap;align-items:center;gap:12px">
+            <button onClick="{{ startReview }}" style="display:inline-flex;align-items:center;padding:15px 24px;border-radius:999px;border:none;background:#4F7A63;color:#FBFAF6;font-family:inherit;font-size:16px;font-weight:600;cursor:pointer" style-hover="background:#3C5F4C">Bewertung abgeben</button>
+            <a href="https://maps.app.goo.gl/B6K6bRCbmiFvXkp5A" target="_blank" rel="noopener" style="display:inline-flex;align-items:center;gap:8px;padding:14px 22px;border-radius:999px;border:1px solid #CFD6CA;color:#3C5F4C;font-size:16px;font-weight:500" style-hover="border-color:#4F7A63">Bewertungen auf Google Maps ansehen</a>
+          </div>
+        </sc-if>
       </div>
-      <a href="Praxis.dc.html" style="font-size:16px;font-weight:500;border-bottom:1px solid #CFD6CA;padding-bottom:3px">Praxis ansehen</a>
+
+      <sc-if value="{{ showStars }}" hint-placeholder-val="{{ false }}">
+        <div style="display:grid;gap:10px;padding-top:22px;border-top:1px solid #EDE8DC">
+          <div style="font-size:15px;color:#5F6F66">Wie zufrieden waren Sie mit uns?</div>
+          <div style="display:flex;gap:6px" onMouseLeave="{{ clearHover }}">
+            <sc-for list="{{ stars }}" as="star" hint-placeholder-count="5">
+              <button onClick="{{ star.onClick }}" onMouseEnter="{{ star.onHover }}" aria-label="{{ star.label }}" style="width:52px;height:52px;border-radius:12px;border:1px solid #E7E2D6;background:#F7F5EF;font-size:28px;line-height:1;cursor:pointer;color:{{ star.color }}">★</button>
+            </sc-for>
+          </div>
+          <div style="font-size:14px;color:#8A9690;min-height:20px">{{ hoverLabel }}</div>
+        </div>
+      </sc-if>
+
+      <sc-if value="{{ isGood }}" hint-placeholder-val="{{ false }}">
+        <div style="display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:20px;padding:26px 28px;border-radius:16px;background:#E4EDE5;border:1px solid #D4E0D6">
+          <div>
+            <div style="font-family:Newsreader,Georgia,serif;font-size:24px;color:#2C4A3A">Vielen Dank für Ihre Bewertung.</div>
+            <p style="font-size:16px;line-height:1.6;color:#3C5F4C;margin:6px 0 0;max-width:52ch">Gerne können Sie Ihre Bewertung auch auf Google Maps veröffentlichen.</p>
+          </div>
+          <a href="{{ googleUrl }}" target="_blank" rel="noopener" style="display:inline-flex;align-items:center;padding:15px 24px;border-radius:999px;background:#3C5F4C;color:#FBFAF6;font-size:16px;font-weight:600">Auf Google Maps bewerten</a>
+        </div>
+      </sc-if>
+
+      <sc-if value="{{ isBad }}" hint-placeholder-val="{{ false }}">
+        <form onSubmit="{{ sendComplaint }}" style="display:grid;gap:14px;padding:26px 28px;border-radius:16px;background:#F7F5EF;border:1px solid #E7E2D6">
+          <div>
+            <div style="font-family:Newsreader,Georgia,serif;font-size:24px;color:#22302A">Vielen Dank für Ihre Rückmeldung.</div>
+            <p style="font-size:16px;line-height:1.6;color:#5F6F66;margin:6px 0 0;max-width:60ch">Bitte beschreiben Sie kurz, was nicht gut war. Ihre Nachricht geht direkt an die Praxisleitung, wir melden uns bei Ihnen.</p>
+          </div>
+          <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px">
+            <label style="display:grid;gap:6px;font-size:14px;color:#5F6F66">Name (optional)
+              <input value="{{ name }}" onChange="{{ onName }}" style="padding:13px 14px;border-radius:10px;border:1px solid #CFD6CA;background:#FBFAF6;font-family:inherit;font-size:16px;color:#22302A">
+            </label>
+            <label style="display:grid;gap:6px;font-size:14px;color:#5F6F66">Ihre E-Mail für Rückfragen
+              <input type="email" value="{{ email }}" onChange="{{ onEmail }}" style="padding:13px 14px;border-radius:10px;border:1px solid #CFD6CA;background:#FBFAF6;font-family:inherit;font-size:16px;color:#22302A">
+            </label>
+          </div>
+          <label style="display:grid;gap:6px;font-size:14px;color:#5F6F66">Ihre Nachricht
+            <textarea required="" rows="5" value="{{ message }}" onChange="{{ onMessage }}" placeholder="Ihre Nachricht" style="padding:13px 14px;border-radius:10px;border:1px solid #CFD6CA;background:#FBFAF6;font-family:inherit;font-size:16px;line-height:1.5;color:#22302A;resize:vertical"></textarea>
+          </label>
+          <div style="display:flex;flex-wrap:wrap;gap:12px;align-items:center">
+            <button type="submit" style="display:inline-flex;align-items:center;padding:14px 24px;border-radius:999px;border:none;background:#4F7A63;color:#FBFAF6;font-family:inherit;font-size:16px;font-weight:600;cursor:pointer" style-hover="background:#3C5F4C">E-Mail senden</button>
+            <button type="button" onClick="{{ reset }}" style="padding:14px 18px;border-radius:999px;border:1px solid #CFD6CA;background:transparent;color:#3C5F4C;font-family:inherit;font-size:16px;cursor:pointer">Abbrechen</button>
+          </div>
+        </form>
+      </sc-if>
+
+      <sc-if value="{{ isSent }}" hint-placeholder-val="{{ false }}">
+        <div style="padding:22px 26px;border-radius:16px;background:#E4EDE5;border:1px solid #D4E0D6;font-size:16px;line-height:1.6;color:#2C4A3A">Ihr E-Mail-Programm wurde geöffnet. Nach dem Senden melden wir uns innerhalb von zwei Werktagen.</div>
+      </sc-if>
     </div>
-    <div style="display:grid;grid-template-columns:repeat(4,minmax(0,1fr));grid-auto-rows:180px;gap:14px;margin-top:34px">
-      <div style="grid-column:span 2;grid-row:span 2;border-radius:16px;background:repeating-linear-gradient(135deg,#E4EDE5 0 8px,#EFF3EB 8px 16px);display:flex;align-items:flex-end;padding:16px">
-        <span style="font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:#5F6F66;background:#F7F5EF;padding:6px 9px;border-radius:5px">Empfang</span>
-      </div>
-      <div style="border-radius:16px;background:repeating-linear-gradient(135deg,#E4EDE5 0 8px,#EFF3EB 8px 16px);display:flex;align-items:flex-end;padding:16px">
-        <span style="font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:#5F6F66;background:#F7F5EF;padding:6px 9px;border-radius:5px">Behandlungsraum</span>
-      </div>
-      <div style="border-radius:16px;background:repeating-linear-gradient(135deg,#E4EDE5 0 8px,#EFF3EB 8px 16px);display:flex;align-items:flex-end;padding:16px">
-        <span style="font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:#5F6F66;background:#F7F5EF;padding:6px 9px;border-radius:5px">Gerätebereich</span>
-      </div>
-      <div style="grid-column:span 2;border-radius:16px;background:repeating-linear-gradient(135deg,#E4EDE5 0 8px,#EFF3EB 8px 16px);display:flex;align-items:flex-end;padding:16px">
-        <span style="font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:#5F6F66;background:#F7F5EF;padding:6px 9px;border-radius:5px">Wartebereich mit Hof</span>
-      </div>
+  </section>
+
+  <sc-if value="{{ showGallery }}" hint-placeholder-val="{{ true }}">
+  <section id="praxis" style="scroll-margin-top:110px;margin:82px -28px 0;padding:28px;border-radius:24px">
+    <div style="font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:#8A9690">Praxis</div>
+    <h2 style="font-family:Newsreader,Georgia,serif;font-weight:400;font-size:42px;line-height:1.14;letter-spacing:-.015em;margin:14px 0 0;max-width:26ch">Unsere Praxisräume</h2>
+    <p style="font-size:18px;line-height:1.66;color:#5F6F66;margin:18px 0 0;max-width:62ch">Vier Behandlungsräume mit Tageslicht, ein eigener Gerätebereich und ein Wartebereich mit Blick in den Hinterhof. Im Trainingsraum sind maximal drei Personen gleichzeitig.</p>
+    <div style="margin-top:34px;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));grid-auto-rows:200px;gap:14px">
+    <div style="grid-column:span 2;grid-row:span 2;border-radius:18px;background:repeating-linear-gradient(135deg,#E4EDE5 0 8px,#EFF3EB 8px 16px);display:flex;align-items:flex-end;padding:16px">
+      <span style="font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:#5F6F66;background:#F7F5EF;padding:6px 9px;border-radius:5px">Empfang und Eingang</span>
+    </div>
+    <div style="grid-column:span 2;border-radius:18px;background:repeating-linear-gradient(135deg,#E4EDE5 0 8px,#EFF3EB 8px 16px);display:flex;align-items:flex-end;padding:16px">
+      <span style="font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:#5F6F66;background:#F7F5EF;padding:6px 9px;border-radius:5px">Behandlungsraum 1</span>
+    </div>
+    <div style="border-radius:18px;background:repeating-linear-gradient(135deg,#E4EDE5 0 8px,#EFF3EB 8px 16px);display:flex;align-items:flex-end;padding:16px">
+      <span style="font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:#5F6F66;background:#F7F5EF;padding:6px 9px;border-radius:5px">Wartebereich</span>
+    </div>
+    <div style="border-radius:18px;background:repeating-linear-gradient(135deg,#E4EDE5 0 8px,#EFF3EB 8px 16px);display:flex;align-items:flex-end;padding:16px">
+      <span style="font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:#5F6F66;background:#F7F5EF;padding:6px 9px;border-radius:5px">Hinterhof</span>
+    </div>
+    <div style="grid-column:span 2;border-radius:18px;background:repeating-linear-gradient(135deg,#E4EDE5 0 8px,#EFF3EB 8px 16px);display:flex;align-items:flex-end;padding:16px">
+      <span style="font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:#5F6F66;background:#F7F5EF;padding:6px 9px;border-radius:5px">Gerätebereich, Weitwinkel</span>
+    </div>
+    <div style="border-radius:18px;background:repeating-linear-gradient(135deg,#E4EDE5 0 8px,#EFF3EB 8px 16px);display:flex;align-items:flex-end;padding:16px">
+      <span style="font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:#5F6F66;background:#F7F5EF;padding:6px 9px;border-radius:5px">Detail: Behandlungsliege</span>
+    </div>
+  </div>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:18px;margin-top:18px">
+    
+    <div style="background:#FBFAF6;border:1px solid #E7E2D6;border-radius:18px;padding:30px">
+      <h2 style="font-family:Newsreader,Georgia,serif;font-weight:500;font-size:24px;margin:0">Barrierefreiheit</h2>
+      <ul style="margin:14px 0 0;padding-left:18px;font-size:16px;line-height:1.75;color:#5F6F66">
+        <li>Ebenerdiger Zugang über den Parkplatz</li>
+        <li>Aufzug im Haus</li>
+        <li>Behandlungsliegen höhenverstellbar</li>
+        <li>Hausbesuche</li>
+      </ul>
+    </div>
+    
+    <div style="background:#E4EDE5;border:1px solid #D4E0D6;border-radius:18px;padding:30px">
+      <h2 style="font-family:Newsreader,Georgia,serif;font-weight:500;font-size:24px;margin:0;color:#2C4A3A">Zum ersten Termin</h2>
+      <ul style="margin:14px 0 0;padding-left:18px;font-size:16px;line-height:1.75;color:#3C5F4C">
+        <li>Rezept und Versichertenkarte</li>
+        <li>Bequeme Kleidung</li>
+        <li>Befunde oder Bilder, falls vorhanden</li><li>Wenn möglich ein großes Handtuch</li>
+        
+      </ul>
+    </div>
     </div>
   </section>
   </sc-if>
 
   <section id="kontakt" style="padding:110px 0 0">
-    <div style="display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.2fr);gap:40px;background:#FBFAF6;border:1px solid #E7E2D6;border-radius:22px;padding:40px;align-items:start">
+    <div data-highlight="" style="display:grid;grid-template-columns:minmax(0,400px) minmax(0,540px);justify-content:space-between;gap:40px;background:#FBFAF6;border:1px solid #E7E2D6;border-radius:22px;padding:40px;align-items:start">
       <div>
-        <div style="font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:#8A9690">Kontakt &amp; Öffnungszeiten</div>
-        <h2 style="font-family:Newsreader,Georgia,serif;font-weight:400;font-size:36px;line-height:1.16;letter-spacing:-.015em;margin:14px 0 0">Am schnellsten geht es per Telefon</h2>
-        <a href="tel:+4930123456" style="display:inline-flex;align-items:center;gap:10px;padding:15px 24px;border-radius:999px;background:#4F7A63;color:#FBFAF6;font-size:17px;font-weight:600;margin-top:24px">030 123 456</a>
+        <div style="font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:#8A9690">Kontakt &amp; telefonische Erreichbarkeit</div>
+        <h2 style="font-family:Newsreader,Georgia,serif;font-weight:400;font-size:36px;line-height:1.16;letter-spacing:-.015em;margin:14px 0 0">Termine nach telefonischer Vereinbarung</h2>
+        <a href="tel:+4930123456" style="display:inline-flex;align-items:center;gap:10px;padding:15px 24px;border-radius:999px;background:#4F7A63;color:#FBFAF6;font-size:17px;font-weight:600;margin-top:24px">07161 39237</a>
         <div style="display:grid;gap:16px;margin-top:28px">
           <div>
             <div style="font-size:13px;color:#8A9690">Adresse</div>
-            <div style="font-size:16px;line-height:1.55;margin-top:3px">Hauptstraße 14<br>12159 Berlin-Friedenau</div>
+            <div style="font-size:16px;line-height:1.55;margin-top:3px">Ulmer Str. 13<br>73066 Uhingen</div>
           </div>
           <div>
             <div style="font-size:13px;color:#8A9690">E-Mail</div>
-            <div style="font-size:16px;margin-top:3px">praxis@lindwerk-physio.de</div>
+            <div style="font-size:16px;margin-top:3px">Info@physiotherapie-weilerhof.de</div>
           </div>
           <div>
             <div style="font-size:13px;color:#8A9690">Anfahrt</div>
-            <div style="font-size:16px;line-height:1.55;margin-top:3px">U9 Friedrich-Wilhelm-Platz, 4 Minuten zu Fuß. Parkplätze im Hof.</div>
+            <div style="font-size:16px;line-height:1.55;margin-top:3px">2. OG im Weilerhof am Kreisverkehr<br></div><div style="font-size: 12px; line-height: 1.55; margin-top: 3px; color: #2E382C; font-style: normal">(Aufzug vorhanden)</div>
           </div>
         </div>
       </div>
       <div>
-        <div style="border-radius:16px;background:repeating-linear-gradient(135deg,#E4EDE5 0 8px,#EFF3EB 8px 16px);aspect-ratio:16/9;display:flex;align-items:flex-end;padding:16px">
-          <span style="font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:#5F6F66;background:#F7F5EF;padding:6px 9px;border-radius:5px">Kartenausschnitt</span>
+        <div style="position:relative;border-radius:16px;overflow:hidden;border:1px solid #E7E2D6;aspect-ratio:16/9;background:#EFF3EB">
+          <iframe title="Karte: Physiotherapie im Weilerhof" src="https://www.openstreetmap.org/export/embed.html?bbox=9.582331180572512%2C48.70555494119569%2C9.587684869766237%2C48.70783473591884&amp;layer=hot&amp;marker=48.70669485146734%2C9.585008025169373" loading="lazy" style="position:absolute;left:-400px;top:-40px;width:calc(100% + 800px);height:calc(100% + 80px);border:0;display:block"></iframe>
+          <div style="position:absolute;right:0;bottom:0;padding:3px 8px;font-size:11px;line-height:1.3;color:#5F6F66;background:rgba(251,250,246,.9);border-top-left-radius:8px"><a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener" style="color:#5F6F66">© OpenStreetMap</a> · <a href="https://www.hotosm.org/" target="_blank" rel="noopener" style="color:#5F6F66">HOT</a></div>
+          <a href="https://www.openstreetmap.org/?mlat=48.706695&amp;mlon=9.585008#map=18/48.706695/9.585008&amp;layers=H" target="_blank" rel="noopener" style="position:absolute;left:12px;bottom:12px;display:inline-flex;align-items:center;padding:8px 14px;border-radius:999px;background:#FBFAF6;border:1px solid #CFD6CA;color:#3C5F4C;font-size:14px;font-weight:500;box-shadow:0 2px 8px rgba(34,48,42,.12)" style-hover="background:#EFF3EB">Größere Karte anzeigen ↗</a>
         </div>
+        <div style="margin-top:10px;font-size:14px;color:#5F6F66"><a href="https://maps.app.goo.gl/TTqYeeDK2Q7Sq5uFA" target="_blank" rel="noopener" style="color: rgb(60, 95, 76); text-decoration: underline; text-underline-offset: 3px;">In Google Maps öffnen ↗</a></div>
         <table style="width:100%;border-collapse:collapse;margin-top:24px;font-size:16px">
           <tbody>
-            <tr><td style="padding:12px 0;border-bottom:1px solid #EDE8DC;color:#5F6F66">Montag &ndash; Donnerstag</td><td style="padding:12px 0;border-bottom:1px solid #EDE8DC;text-align:right">08:00 &ndash; 19:00</td></tr>
-            <tr><td style="padding:12px 0;border-bottom:1px solid #EDE8DC;color:#5F6F66">Freitag</td><td style="padding:12px 0;border-bottom:1px solid #EDE8DC;text-align:right">08:00 &ndash; 15:00</td></tr>
-            <tr><td style="padding:12px 0;border-bottom:1px solid #EDE8DC;color:#5F6F66">Telefonzeiten</td><td style="padding:12px 0;border-bottom:1px solid #EDE8DC;text-align:right">08:00 &ndash; 12:00 &middot; 14:00 &ndash; 17:00</td></tr>
-            <tr><td style="padding:12px 0;color:#5F6F66">Samstag &amp; Sonntag</td><td style="padding:12px 0;text-align:right;color:#8A9690">geschlossen</td></tr>
+            <tr><td style="padding:12px 0;border-bottom:1px solid #EDE8DC;color:#5F6F66">Montag und Mittwoch</td><td style="padding:12px 0;border-bottom:1px solid #EDE8DC;text-align:right">09:00 – 12:00 · 14:30 – 17:30</td></tr>
+            <tr><td style="padding:12px 0;border-bottom:1px solid #EDE8DC;color:#5F6F66">Dienstag und Donnerstag</td><td style="padding:12px 0;border-bottom:1px solid #EDE8DC;text-align:right">09:00 – 12:00 · 16:00 – 19:00</td></tr>
+            <tr><td style="padding:12px 0;border-bottom:1px solid #EDE8DC;color:#5F6F66">Freitag</td><td style="padding:12px 0;border-bottom:1px solid #EDE8DC;text-align:right">09:00 – 12:00</td></tr>
+            <tr><td style="padding:12px 0;color:#5F6F66">Samstag &amp; Sonntag</td><td style="padding:12px 0;text-align:right;color:#8A9690">geschlossen</td></tr><tr><td style="padding:12px 0;color:#5F6F66"><br></td><td style="padding: 12px 0; text-align: right; color: #22302a">Termin nach Vereinbarung</td></tr>
           </tbody>
         </table>
       </div>
@@ -248,10 +993,10 @@
   </section>
 
   <footer style="display:flex;flex-wrap:wrap;gap:24px;justify-content:space-between;align-items:center;margin-top:80px;padding:30px 0;border-top:1px solid #E7E2D6">
-    <div style="font-size:14px;color:#8A9690">Praxis Lindwerk &middot; Physiotherapie &middot; Berlin-Friedenau</div>
+    <div style="font-size:14px;color:#8A9690">Physiotherapie im Weilerhof · Uhingen</div>
     <div style="display:flex;gap:22px">
-      <a href="Leistungen.dc.html" style="font-size:14px;color:#5F6F66">Leistungen</a>
-      <a href="Praxis.dc.html" style="font-size:14px;color:#5F6F66">Praxis</a>
+      <a href="#leistungen" style="font-size:14px;color:#5F6F66">Leistungen</a>
+      <a href="#praxis" style="font-size:14px;color:#5F6F66">Praxis</a>
       <a href="#kontakt" style="font-size:14px;color:#5F6F66">Impressum</a>
       <a href="#kontakt" style="font-size:14px;color:#5F6F66">Datenschutz</a>
     </div>
@@ -259,12 +1004,92 @@
 </div>
 
 </x-dc>
-<script type="text/x-dc" data-dc-script data-props="{&quot;showTestimonials&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;Abschnitte&quot;},&quot;showGallery&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;Abschnitte&quot;}}">
+<script type="text/x-dc" data-dc-script data-props="{&quot;showTestimonials&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;Abschnitte&quot;},&quot;showGallery&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;Abschnitte&quot;},&quot;googleReviewUrl&quot;:{&quot;editor&quot;:&quot;text&quot;,&quot;default&quot;:&quot;https://www.google.com/maps/search/?api=1&amp;query=Physiotherapie+im+Weilerhof+Ulmer+Str.+13+73066+Uhingen&quot;,&quot;tsType&quot;:&quot;string&quot;,&quot;section&quot;:&quot;Bewertung&quot;},&quot;feedbackEmail&quot;:{&quot;editor&quot;:&quot;text&quot;,&quot;default&quot;:&quot;Info@physiotherapie-weilerhof.de&quot;,&quot;tsType&quot;:&quot;string&quot;,&quot;section&quot;:&quot;Bewertung&quot;}}">
 class Component extends DCLogic {
+  componentDidMount() {
+    this._flash = () => {
+      const id = decodeURIComponent((location.hash || '').slice(1));
+      const t = id && document.getElementById(id);
+      if (!t) return;
+      const el = t.querySelector('[data-highlight]') || t;
+      const r = getComputedStyle(el).borderRadius === '0px' ? '10px' : getComputedStyle(el).borderRadius;
+      const bg = getComputedStyle(el).backgroundColor;
+      setTimeout(() => el.animate([
+        { boxShadow: '0 0 0 0 rgba(79,122,99,0)', backgroundColor: bg, borderRadius: r, offset: 0 },
+        { boxShadow: '0 0 0 10px rgba(79,122,99,.22)', backgroundColor: '#EEF3EC', borderRadius: r, offset: 0.2 },
+        { boxShadow: '0 0 0 10px rgba(79,122,99,.22)', backgroundColor: '#EEF3EC', borderRadius: r, offset: 0.4 },
+        { boxShadow: '0 0 0 14px rgba(79,122,99,0)', backgroundColor: bg, borderRadius: r, offset: 1 }
+      ], { duration: 3200, easing: 'cubic-bezier(.4,0,.2,1)' }), 500);
+    };
+    this._offset = t => {
+      const el = t.querySelector('[data-highlight]') || t;
+      const hd = document.querySelector('header');
+      const top = hd ? hd.getBoundingClientRect().height : 0;
+      return el.getBoundingClientRect().top + (parseFloat(getComputedStyle(el).paddingTop) || 0) - (top + 24);
+    };
+    this._scrollTo = (t, smooth) => {
+      const y = this._offset(t) + window.scrollY;
+      window.scrollTo({ top: Math.max(0, y), behavior: smooth ? 'smooth' : 'auto' });
+    };
+    this._click = e => {
+      const a = e.target.closest && e.target.closest('a[href^="#"]');
+      if (!a) return;
+      const id = decodeURIComponent(a.getAttribute('href').slice(1));
+      const t = id && document.getElementById(id);
+      if (!t) return;
+      e.preventDefault();
+      if (location.hash !== '#' + id) history.pushState(null, '', '#' + id);
+      this._scrollTo(t, true);
+      clearTimeout(this._fix);
+      this._fix = setTimeout(() => {
+        if (Math.abs(this._offset(t)) > 4) this._scrollTo(t, true);
+      }, 900);
+      this._flash();
+    };
+    window.addEventListener('hashchange', this._flash);
+    document.addEventListener('click', this._click);
+    if (location.hash) setTimeout(this._flash, 300);
+  }
+  componentWillUnmount() {
+    window.removeEventListener('hashchange', this._flash);
+    document.removeEventListener('click', this._click);
+  }
+  state = { step: 'idle', rating: 0, hover: 0, name: '', email: '', message: '' };
   renderVals() {
+    const { step, rating, hover, name, email, message } = this.state;
+    const labels = ['', 'Gar nicht zufrieden', 'Eher unzufrieden', 'Geht so', 'Zufrieden', 'Sehr zufrieden'];
+    const active = hover || rating;
+    const to = this.props.feedbackEmail ?? 'praxis@example.de';
+    const rate = n => this.setState({ rating: n, step: n >= 4 ? 'good' : 'bad' });
     return {
       showTestimonials: this.props.showTestimonials ?? true,
-      showGallery: this.props.showGallery ?? true
+      showGallery: this.props.showGallery ?? true,
+      isIdle: step === 'idle',
+      showStars: step !== 'idle' && step !== 'sent',
+      isGood: step === 'good',
+      isBad: step === 'bad',
+      isSent: step === 'sent',
+      googleUrl: this.props.googleReviewUrl ?? 'https://www.google.com/maps/search/?api=1&query=Physiotherapie+im+Weilerhof+Ulmer+Str.+13+73066+Uhingen',
+      hoverLabel: labels[active] || '',
+      stars: [1, 2, 3, 4, 5].map(n => ({
+        label: n + ' Sterne',
+        color: n <= active ? '#C9A227' : '#CFD6CA',
+        onClick: () => rate(n),
+        onHover: () => this.setState({ hover: n })
+      })),
+      clearHover: () => this.setState({ hover: 0 }),
+      startReview: () => this.setState({ step: 'rate' }),
+      reset: () => this.setState({ step: 'idle', rating: 0, hover: 0 }),
+      name, email, message,
+      onName: e => this.setState({ name: e.target.value }),
+      onEmail: e => this.setState({ email: e.target.value }),
+      onMessage: e => this.setState({ message: e.target.value }),
+      sendComplaint: e => {
+        e.preventDefault();
+        const body = `Bewertung: ${rating} von 5 Sternen\n\n${message}\n\n${name ? 'Name: ' + name + '\n' : ''}${email ? 'E-Mail: ' + email : ''}`;
+        window.open(`mailto:${to}?subject=${encodeURIComponent('Rückmeldung zur Behandlung')}&body=${encodeURIComponent(body)}`, '_blank');
+        this.setState({ step: 'sent' });
+      }
     };
   }
 }
